@@ -7,7 +7,8 @@
 
 body {
   background: #E5E5E5;
-  background-image: url("bg.jpg");
+  background: linear-gradient(to right, #ffcc99, #ff6f61);
+  /* background-image: url("bg.jpg"); */
 }
 
 #card-front {
@@ -63,7 +64,7 @@ body {
   font-family: 'Lobster', cursive;
   font-style: italic;
   font-size: 70px;
-  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15), 1px 1px 0 #ffc8c8, 2px 2px 0 #ff9696, 3px 3px 0 #ff7d7d;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15), 1px 1px 0 #dcf4ff, 2px 2px 0 #a4dffa, 3px 3px 0 #7dd6ff;
   color: #FFF;
 }
 
@@ -92,8 +93,8 @@ font-family: 'Indie Flower', cursive;
 
 #card-front {
   background-color: #ee9ca7;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#FF5555), to(#FF7777));
-  background-image: linear-gradient(top, #FF5555 0%, #FF7777 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#55e5ff), to(#2d6cf5));
+  background-image: linear-gradient(top, #55e5ff 0%, #2d6cf5 100%);
   -webkit-transform-origin: left;
           transform-origin: left;
   -webkit-transition: -webkit-transform 1s linear;
@@ -114,7 +115,7 @@ font-family: 'Indie Flower', cursive;
   left: 0;
   right: 0;
   display: block;
-  background-color: #444;
+  background-color: #fa3f3f;
   -webkit-transform: translateZ(-1px);
           transform: translateZ(-1px);
 }
@@ -130,7 +131,7 @@ font-family: 'Indie Flower', cursive;
   position: absolute;
   bottom: 1em;
   right: -12px;
-  background: #F44;
+  background: rgb(0, 8, 80);
   color: #FFF;
   font-family: 'Lobster', cursive;
   font-style: italic;
@@ -145,7 +146,7 @@ font-family: 'Indie Flower', cursive;
 
 #card-front button:hover,
 #card-front button:focus {
-  background: #F22;
+  background:  rgb(98, 114, 255);
 }
 
 #close {
@@ -234,7 +235,7 @@ font-family: 'Lobster', cursive;
 
 .velas:after,
 .velas:before {
-  background: rgba(255, 0, 0, 0.4);
+  background: rgba(0, 4, 255, 0.4);
   content: "";
   position: absolute;
   width: 100%;
@@ -400,14 +401,14 @@ font-family: 'Lobster', cursive;
 .polaroid .img {
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden;
   background-position: center;
+          backface-visibility: hidden;
   background-size: cover;
   -webkit-animation: fade-in 20s ease-in;
           animation: fade-in 20s ease-in;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+          animation-iteration-count: 1; */
 }
 
 @-webkit-keyframes fade-in {
